@@ -1,6 +1,6 @@
-package com.itbulls.learnit.javacore.math;
 
-public class MathClassDemo {
+
+public class MathClass {
 	
 	public static void main(String[] args) {
 		System.out.println(Math.PI);		// 3.141592653589793
