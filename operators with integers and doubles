@@ -13,7 +13,7 @@ public class OperationsWithIntegersAndDoubles {
 //		
 		BigDecimal rideFee = BigDecimal.valueOf(20).setScale(2);
 		BigDecimal amountOfPeople = BigDecimal.valueOf(3);
-		BigDecimal chargePerPerson = rideFee.divide(amountOfPeople, RoundingMode.HALF_UP);
+		BigDecimal chargePerPerson = rideFee.divide(amountOfPeople, RoundingMode.HALF_UP);    // RoundingMode.HALF_UP allows rounding from the middle to the top of the number, not recommended for a business app
 		System.out.println(chargePerPerson);	// 6.67
 //		
 		double d = 3.1;
